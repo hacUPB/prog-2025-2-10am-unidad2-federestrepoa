@@ -30,11 +30,13 @@ Analicemos el siguiente problema y representemos su solución mediante un algori
 - Construye un algoritmo que, al recibir como datos **el ID** del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
 
   ## solucion
-
+```
 inicio 
 leer id ,s1,s2,s3,s4,s5,s6
 total = s1 + s2 +s3 + s4 + s5 +s5 + s6
 promedio = total / 6
 escribir ID, total, promedio
 fin
-´´´
+```
+# diagrama de flujo
+<img width="222" height="552" alt="ejercicio2 drawio" src="https://github.com/user-attachments/assets/d08e76d5-3eee-4b7e-929c-0669e59c55aa" />
