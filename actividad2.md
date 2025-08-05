@@ -60,3 +60,76 @@ fin
 
 <img width="934" height="751" alt="image" src="https://github.com/user-attachments/assets/2e3b9264-842f-4de8-b4fe-64262280b525" />
 
+# ejercicio 3 
+
+## analisis
+
+|Variables| Tipo| Comentario|
+|---------|-----|----------|
+|Lapices  | Entrada| Cantidad de lapices|
+|precio  | Salida| Precio total de los lapices|
+|Valor_unidad| Intermedia | Valor unitario de cada lapiz|
+|85, 90 | Constantes| No cambian|
+
+## pseudo codigo
+
+```
+Inicio
+Leer lapices
+Si lapices >= 1000 Entonces
+        valor_unidad = 85
+Sino
+        valor_unidad = 90
+Fin Si
+
+total = lapices * valor_unidad
+
+    Escribir "El valor total es: ", precio
+Fin
+
+```
+
+
+
+# ejercicio 4
+
+##analisis
+
+|Variables| Tipo| Comentario|
+|---------|-----|----------|
+| Total_compra | Entrada | Valor de la compra |
+| Descuento    | Salida  | Descuento segun el valor de la compra |
+| precio-final | Salida | Valora a pagar |
+| 15%, 8%, $250000 | Constantes | Descuentos y valor limite |
+
+## pseudocodigo 
+
+```
+inicio
+leer total_compra
+si total_compra > 250000:
+     descuento = total_compra * 0.15
+si no
+      descuento = total_compra * 0.08
+fin si
+precio_total = total_compra - descuento
+escribir "valor a pagar:", precio_final
+```
+# ejercicio 5
+
+## analisis
+
+|Variables| Tipo| Comentario|
+|---------|-----|-----------|
+|alumnos | Entrada| Cantidad de alumnos|
+|costo_alumno | Salida| Costo segun la cantidad de alumnos|
+|costo_total  | Salida| Costo total a pagar|
+|100_65$, 50-99_70$, 30-49_95$, 1-30_4000$(sin importar la cantidad de alumnos)| Constantes| cantidad de alumnos y costo por alumno según la cantidad|
+
+## pseudocodigo
+
+
+
+
+
+
