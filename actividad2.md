@@ -40,3 +40,23 @@ fin
 ```
 # diagrama de flujo
 <img width="222" height="552" alt="ejercicio2 drawio" src="https://github.com/user-attachments/assets/d08e76d5-3eee-4b7e-929c-0669e59c55aa" />
+
+# actividad de casa 
+
+## pseudocodgio 
+
+```
+
+inicio
+leer n1, n2, n3, n4, n5, n6
+promedio= (n1 + n2 + n3 + n3 + n5 + n6) /6
+nota_necesaria = (3.0 - (promedio * 0.7)) / 0.3
+escribir "debes sacar" , nota_necesaria, "wn la nota 7 para aprobar con 3.0"
+fin
+
+```
+
+## diagrama de flujo 
+
+<img width="934" height="751" alt="image" src="https://github.com/user-attachments/assets/2e3b9264-842f-4de8-b4fe-64262280b525" />
+
