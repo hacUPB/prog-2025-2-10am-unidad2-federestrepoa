@@ -131,5 +131,31 @@ escribir "valor a pagar:", precio_final
 
 
 
+# Tarea 
+
+## pseudocodigo
+
+```
+INICIO
+
+Entrada de datos
+Leer fecha_dia, fecha_mes, fecha_año
+Leer nacimiento_dia, nacimiento_mes, nacimiento_año
+
+ Cálculo inicial de la edad
+edad = fecha_año - nacimiento_año
+
+ Ajuste si el cumpleaños aún no ha llegado este año
+Si (fecha_mes < nacimiento_mes) O (fecha_mes = nacimiento_mes Y fecha_dia < nacimiento_dia) Entonces
+    edad = edad - 1
+FinSi
+
+ Salida
+Mostrar "La edad es: ", edad
+
+FIN
+```
+## diagrama de flujo
+<img width="616" height="643" alt="image" src="https://github.com/user-attachments/assets/accc8be5-eef2-4d69-acee-1687d80a0b93" />
 
 
