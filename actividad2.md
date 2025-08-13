@@ -158,4 +158,88 @@ FIN
 ## diagrama de flujo
 <img width="616" height="643" alt="image" src="https://github.com/user-attachments/assets/accc8be5-eef2-4d69-acee-1687d80a0b93" />
 
+# ejercicio 6
+
+Se requiere un algoritmo para determinar, de N cantidades; cuantas son cero, cuantas son menores a cero, y cuantas son mayores a cero.
+Realice el diagrama de flujo y el pseudocodigp representario, utilizando el ciclo apropiado.
+
+|Variables | tipo | cometario|
+|---------|-------|----------|
+| N       | Entrada|
+|cant     | Entrada|
+|ceros    | salida |contador |
+|mayeros  | salida |Contador |
+|menores  | salida |Contador |
+
+## Pseudocodigo
+
+ 
+ Inicio
+ Leer N
+ ceros = 0
+ mayores = 0
+ menores = 0
+ Mientras N > 0:
+     Leer cant:
+      Si cant > 0:
+        mayores = menores +1
+    
+     si no 
+        si cant = 0
+            ceros = ceros + 1
+        Si no 
+          menores = menores + 1
+        Fin Si
+    Fin Si
+    N = N - 1
+Fin mientras 
+Mostrar ceros, mayores, menores
+Fin
+
+## diagrama
+
+![Imagen de WhatsApp 2025-08-12 a las 17 13 16_02473153](https://github.com/user-attachments/assets/f08524db-d417-4e77-a439-9f51cff7a1a3)
+
+# tarea 
+
+## pseudocodigo 
+````
+INICIO
+    LEER valor_compra
+    LEER num_cuotas
+    tasa_interes = 0.02
+    saldo = valor_compra
+    cantidad_de_pagos = 0
+
+    MIENTRAS saldo > 0 HACER
+        cuota = valor_compra / num_cuotas
+        valor_de_interes = saldo * tasa_interes
+        total_pago_mes = cuota + valor_de_interes
+
+        saldo = saldo - cuota
+        cantidad_de_pagos = cantidad_de_pagos + 1
+        cantidad_de_cuotas_restantes = num_cuotas - cantidad_de_pagos
+
+        ESCRIBIR "Mes ", cantidad_de_pagos, ": pago = ", total_pago_mes, 
+                  " saldo restante = ", saldo
+    FIN MIENTRAS
+
+    SI saldo = 0 ENTONCES
+        ESCRIBIR "Deuda saldada"
+    FIN SI
+FIN
+````
+## diagrama de flujo 
+
+![Imagen de WhatsApp 2025-08-12 a las 20 21 44_52473005](https://github.com/user-attachments/assets/25e675f3-eb9b-4545-93b1-7dd777dfbc8c)
+
+
+
+
+    
+
+
+
+
+
 
